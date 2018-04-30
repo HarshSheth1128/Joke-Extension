@@ -1,0 +1,43 @@
+html{
+  min-width: 500px;
+}
+
+#Joke{
+  font-size: 13px;
+  min-width: 500px;
+  display: inline-block;
+  border-bottom: 1px solid black;
+}
+
+#Punchline{
+  font-size: 13px;
+  min-width: 500px;
+  display: inline-block;
+}
+
+.Buttons, button{
+  position: relative;
+  -webkit-transition-duration: 0s; /* Safari */
+  transition-duration: 0s;
+}
+
+.Buttons, button:hover{
+  color: white;
+  background-color: #008CBA;
+}
+
+
+#PrevBtn{
+  float: left;
+}
+
+#NxtBtn{
+  float: right;
+}
+
+#ResetBtn{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  -ms-transform: translate(-50%, 0%);
+}
